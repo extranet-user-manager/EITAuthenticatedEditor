@@ -1,0 +1,16 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+    "version": "2.0",
+    "bundles": {
+        "eit-authenticated-editor-web-part": {
+            "components": [{
+                "entrypoint": "./lib/webparts/eitAuthenticatedEditor/EitAuthenticatedEditorWebPart.js",
+                "manifest": "./src/webparts/eitAuthenticatedEditor/EitAuthenticatedEditorWebPart.manifest.json"
+            }]
+        }
+    },
+    "externals": {},
+    "localizedResources": {
+        "EitAuthenticatedEditorWebPartStrings": "lib/webparts/eitAuthenticatedEditor/loc/{locale}.js"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "eit-authenticated-editor-client-side-solution",
+        "id": "40207af3-2bda-4587-a885-96ceb0212106",
+        "version": "1.0.0.0",
+        "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
+        "webApiPermissionRequests": [{
+            "resource": "EIT_Authorized_Editor_Webpart",
+            "scope": "EIT_Authorized_Editor_Webpart"
+        }],
+        "developer": {
+            "name": "",
+            "websiteUrl": "",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": ""
+        }
+    },
+    "paths": {
+        "zippedPackage": "solution/eit-authenticated-editor.sppkg"
+    }
+}
